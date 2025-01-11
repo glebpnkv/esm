@@ -36,7 +36,8 @@ dependencies = [
   "pandas",
   "cloudpathlib",
   "tenacity",
-  "zstd"
+  "zstd",
+  "matplotlib"
 ]
 
 [tool.setuptools]

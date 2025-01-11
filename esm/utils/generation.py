@@ -421,7 +421,7 @@ def iterative_sampling_tokens(
             # Trim logits to proper sequence length for this prompt.
             per_prompt_forward_out = _trim_sequence_tensor_dataclass(
                 per_prompt_forward_out,
-                # Note(jungong) : we can not smiply use sequence_lenths[i] here,
+                # Note(jungong) : we can not simply use sequence_lenths[i] here,
                 # what we want is for the sequence length of the logits to match
                 # that of the prompt, which may or may not be padded, depending on
                 # whether the padding was done locally with the open source model
