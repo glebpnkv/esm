@@ -37,7 +37,8 @@ dependencies = [
   "cloudpathlib",
   "tenacity",
   "zstd",
-  "matplotlib"
+  "matplotlib",
+  "accelerate"
 ]
 
 [tool.setuptools]
